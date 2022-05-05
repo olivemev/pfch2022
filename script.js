@@ -1,18 +1,18 @@
-function setCar() {
+function setViz() {
     var img = document.getElementById("image");
     img.src = this.value;
     return false;
 }
 
-document.getElementById("NbaList").onchange = setCar;
+document.getElementById("NbaList").onchange = setViz;
 
 //another
 
-function setCartwo() {
+function setViztwo() {
     var img = document.getElementById("image_two");
     img.src = this.value;
     return false;
 }
 
-document.getElementById("NbaList_two").onchange = setCartwo;
+document.getElementById("NbaList_two").onchange = setViztwo;
 
