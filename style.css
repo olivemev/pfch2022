@@ -242,7 +242,7 @@ h5 a{
 
   }
   
-  img{
+  img, .graphs{
     width: 100%;
     object-fit: contain;
   }
