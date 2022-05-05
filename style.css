@@ -8,6 +8,21 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 900px) {
+  .container {
+  flex-wrap: wrap!important;
+  justify-content: center!important;
+  flex-direction: column!important;
+
+  }
+  img{
+    width: 100%;
+    object-fit: contain;
+  }
+
+
+}
+
 body {
   background-color: #bfc4cc;
   font-family: 'IBM Plex Serif', serif;
