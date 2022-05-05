@@ -242,6 +242,11 @@ h5 a{
 
   }
   
+  .bottom{
+    margin:0 auto!important;
+  text-align:center;
+  }
+  
   img, .graphs{
     width: 100%;
     object-fit: contain;
