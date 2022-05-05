@@ -9,6 +9,9 @@
 }
 
 @media screen and (max-width: 900px) {
+  
+  body{
+  margin:0 auto!important;}
   .container {
   flex-wrap: wrap!important;
   justify-content: center!important;
