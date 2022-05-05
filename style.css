@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #bfc4cc;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+header{
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+i{
+  font-size: 0.5em;
+}
+
+a{
+  color: blue;
+}
+
+
+.hover_img a { position:relative; }
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover span { display:block; }
+
+#twen{
+color: red;
+}
+#purp{
+  color: #dcb8ff;
+  background-color: #fbfcf8;
+  font-weight: 400;
+}
+#green{
+  color: #216331;
+  background-color: #f8f8ff;
+}
+#blue{
+  color:#45a8e4;
+  background-color: #fffafa;
+}
+
+.wrapper{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+
+ }
+
+ .container{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 15%;
+  align-items: center;
+ }
+
+
+
+ h2{
+   padding-right: 4%;
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: 300;
+ }
+
+ .hover{
+  padding-top: 10%;
+ }
+
+.every{
+  padding-left: 4%;
+}
+
+select{
+ height: 30px;
+ justify-content: flex-end;
+ display: flex;
+ text-align:center;
+ background: #12110f;
+ color: #9bdb1d;
+ font-family: 'IBM Plex Serif', serif;
+ letter-spacing: 0.1em;
+
+}
+
+.contd{
+  justify-content: space-around;
+  flex-direction: column;
+  display: flex;
+  padding-left: 2%
+
+  /*
+  bottom: -20px;
+  left:170px;
+  text-align: center;
+  position: absolute!important;*/
+}
+
+
+#image{
+height: 540px;
+vertical-align: middle; 
+border: 2px #5e6f66 solid;
+}
+
+#image:hover{
+  transform: scale(1.6);
+}
+
+
+#image_two{
+  object-fit: contain;
+}
+
+#image_three{
+  vertical-align: none;
+}
+
+.header{
+  padding-bottom: 2%;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 2.4em;
+  letter-spacing: 0.1em;
+  font-weight: lighter!important;
+}
+
+.header a{
+  font-weight: lighter;
+}
+
+.ballimg{
+  padding-bottom: 8%
+}
+
+img{
+  width: auto;
+}
+
+/* color for txt #31332e - brown */ 
+
+p{
+  color: #204042;
+}
+
+
+.three{
+justify-content: center;
+flex-wrap: wrap;
+padding: 2% 2%;
+border: 1px dashed #5e6f66;
+margin-bottom: 5%
+}
+
+h5{
+  font-size: 2rem;
+  position: absolute;
+  top: 35px;
+  right: 70px;
+}
+
+h5 a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.star{
+  color: orange;
+  font-size: 1.6em;
+}
+
+
+.newyork{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+}
+.nyc{
+  text-align:center;
+  font-size: 2rem;
+  padding-bottom: 3%
+}
+
+.nyctxt{
+  border-top: 2px solid red;
+}
+
+
+.bottom{
+  border-top: 1px solid purple;
+}
+
+
+ .four{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 15%
+
+ }
+
+ .titleabt{
+  padding-bottom: 5%;
+  font-size: 2em
+ }
+
+ iframe{
+  width: 600px!important;
+  height: 500px;
+}
+
+.aboutparagraph{
+  line-height: 200%;
+  padding:0 25%;
+}
+
+
+

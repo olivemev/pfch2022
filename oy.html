@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NBA Data</title>
+    <!-- google fonts! -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <!-- FULL BODY TIME --> 
+
+
+  <body>
+
+    <header id="#">
+        <h1> NBA Eastern Conference Data <br /> <i>spanning from the 2015-16 season to 2019-20, partially in the bubble</i> </h1>
+
+        <h5><a href="#here">about</a></h5>
+    </header>
+
+
+
+<div class="wrapper">
+
+<!--end container one -->
+
+<div class="container one">
+
+    <img id="image" src="visuals/15-16.png" />
+
+<div class="contd">
+<select id="NbaList" class="a">
+    <option value="visualizations/15-16.png">2015-16</option>
+    <option value="visualizations/16-17.png">2016-17</option>
+    <option value="visualizations/17-18.png">2017-18</option>
+    <option value="visualizations/18-19.png">2018-19</option>
+    <option value="visualizations/bubble.png">2019-2020</option>
+
+</select>
+
+<p class="hover">hover image to zoom in!</p>
+</div>
+
+<h2 class="every">
+   These visualizations explore the total number of games <span id="purp">played</span>, <span id="green">won</span>, and <span id="blue">lost</span> (x-axis) over the course of five NBA seasons, one of which (2019-<span id="twen">2020</span>) was partially held in the <a href="https://www.sportingnews.com/us/nba/news/nba-bubble-rules-teams-schedule-orlando/zhap66a9hcwq1khmcex3ggabo" target="_blank">bubble</a>. The Toronto Raptors have been the most consistently successful team. The Boston Celtics have been similarly consistent. 
+</h2>
+
+ <!--script for drop down-->
+
+<script type="text/javascript" src="script.js"></script>
+</div>
+
+<!-- end cont 1 -->
+
+<!-- by divison / container 2 -->
+<div class="container two">
+
+<h2>
+    The bar graphs display Eastern Conference <span id="twen">underdogs</span> grouped by division. <br><br>
+
+<div class="hover_img">
+     The <a href="https://www.merriam-webster.com/dictionary/underdog" target="_blank"> underdog<span><img src="dog.png" alt="image" height="100" /></span></a> for the Atlantic Division was the 76ers, the most underperforming team in the Central Division were the Milwaukee Bucks, and the Southeast Division had Orlando Magic, coming in with a win percentage between 0.4 & 0.5%.
+
+     <br /><br/>
+
+     Eastern Conf. underdogs by season:<br/>
+     15-16: 76ers<br>
+     16-17: Nets<br>
+     17-18: Hawks<br>
+     18-19: Knicks<br>
+
+
+</div>
+
+<br>
+
+
+</h2>
+
+<img id="image_two" src="visuals/test1.png" />
+
+<select id="NbaList_two" class="b">
+    <option value="visuals/test1.png">Atlantic Division</option>
+    <option value="visuals/test2.png">Central Division</option>
+    <option value="visuals/tests.png">SE Division</option>
+</select>
+
+ <!--script for drop down-->
+
+<script type="text/javascript" src="script.js"></script>
+
+</div>
+
+<div class="ballimg">
+    <img src="ball.png">
+</div>
+<!-- end 2 -->
+
+<div class="header"><h3>Interactive Graphs made with <a href="https://plotly.com/" target="_blank">Plotly</a></h3></div>
+
+<div class="three">
+
+
+<div class="graphs">
+
+<embed type="text/html" src="file:///Users/oliviam/Desktop/filename.html" width="600" height="500"> 
+<embed type="text/html" src="file:///Users/oliviam/Desktop/filename1.html" width="600" height="500"> 
+<embed type="text/html" src="file:///Users/oliviam/Desktop/filename2.html" width="600" height="500">
+<embed type="text/html" src="file:///Users/oliviam/Desktop/filename4.html" width="600" height="500"> 
+
+</div>
+
+<h2 class="bottom">
+   These plotly generated graphs compare the % of <a href="https://www.landofbasketball.com/year_by_year_stats/2021_2022_leaders_3pointers_tot_rs.htm" target="_blank">Three Point Field Goals Made </a> (3pm_year) to # of <span id="green"> games won</span> (y-axis). 
+<br><br>
+   • In the 2015-16 season, 8 (out of 15) teams won more than 42 (out of 82) games. 
+   Those 8 teams averaged 8.96 3pm. Nine teams had a 3pm average above 8. Two teams had a 3pm average above 10. 
+<br><br>
+   • In the 2016-17 season, 5 teams won more than 42 games.
+    Those 5 teams averaged 10.38 3pm. Thirteen teams had a 3pm above 8. Four teams had a 3pm above 10. 
+<br><br>
+    • In the 2017-18 season 8 teams won more than 42 games. 
+    Those 8 teams averaged 10.62 3pm. Fifteen teams had a 3pm above 8. Ten teams had a 3pm above 10. 
+<br><br>
+• In the 2018-19 season 5 teams won more than 42 games.
+ Those 5 teams averaged 11.76 3pm. Fifteen teams had a 3pm above 8. Twelve teams had a 3pm above 10. 
+</h2>
+
+</div> <!-- end interactive maps -->
+
+<div class="newyork">
+
+    <h2 class="nyc">New York Data! <span id="twen">Nets vs Knicks</span> <br/><br>a visual comparison between win %s from the 2015-16 - 2018-19 seasons.
+    </h2><br /><br /><br />
+    <img class="ny" style="justify-content: center;" src="visuals/testio.png">
+
+    <br><br>
+
+    <p class="nyctxt" style="text-align: center;"> The Brooklyn Nets started with a lower win percentage than the New York Knicks.<br/><br/> In the 2018-19 season, the contrast between the two teams' win % changed drastically.<br/> <br/>
+
+
+     <a href="x" target="_blank" style="border-bottom: 2px solid red">Mean (win %):</a><br/> 2015-16: 0.323000, <br/>2016-17: 0.311000, <br/>2017-18: 0.347500, <br/>2018-19: 0.359500<br/><br/>
+
+
+    <a href="https://www.youtube.com/watch?v=MRqtXL2WX2M" target="_blank" style="border-bottom: 2px solid red">Standard Deviation:</a><br/> 2015-16: 0.094752, <br/>2016-17: 0.094752, <br/>2017-18: 0.009192, <br/>2018-19: <span class="lime" style="color: lime; background-color: brown">0.215668</span>
+    </p>
+</div>
+
+
+<div class="four" id="here">
+
+<p class="titleabt">About <span class="star">★</span> the project <span class="star">☆</span></p>
+
+<iframe frameBorder="0" src="https://imgflip.com/embed/6ek7l1"></iframe>
+ <span class="star">★ ★ ★</span> 
+
+<p class="aboutparagraph">
+    The NBA Eastern Conference Data project was inspired by my love and respect for the game & those who play it! I decided to begin pulling the stats from the season when I first started becoming interested in basketball. I scraped the <a href="https://www.nba.com/stats/teams/traditional/?sort=FG3M&dir=-1&Season=2015-16&SeasonType=Regular%20Season" target="_blank">NBA website</a> and compiled it into a csv file.
+
+</p>
+
+
+
+</div>
+
+<footer style="margin-top: 5%">
+    <h1><a href="#">Back to Top</a></h1>
+</footer>
+
+</div><!--wrapper end-->
+
+ </body>
+</html>
