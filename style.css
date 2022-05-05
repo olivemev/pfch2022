@@ -230,7 +230,11 @@ h5 a{
   body{
   margin:0 auto!important;
   }
-  
+  .wrapper{
+  text-align:center;
+  align-items:center;
+  align-self:center;
+  }
   .container {
   flex-wrap: wrap!important;
   justify-content: center!important;
@@ -243,6 +247,9 @@ h5 a{
     object-fit: contain;
   }
 
+  .ballimg{
+    width:80%;
+  }
 
 }
 
