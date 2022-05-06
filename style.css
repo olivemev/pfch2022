@@ -119,7 +119,9 @@ border: 2px #5e6f66 solid;
 
 
 #image_two{
-  object-fit: contain;
+ max-width: 100%;
+width: 600px;
+height: 400px;
 }
 
 #image_three{
