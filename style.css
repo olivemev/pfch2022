@@ -229,6 +229,10 @@ margin-bottom: 5%
 }
 
 @media screen and (max-width: 900px) {
+  .wrapper{
+    overflow-x: hidden;
+
+  }
   
   body{
   margin:0 auto!important;
