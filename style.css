@@ -183,13 +183,14 @@ h5 a{
 .newyork{
   display: flex;
   flex-wrap: wrap;
+    flex-direction: row;
   justify-content: center;
   align-self: center;
 }
 .nyc{
   text-align:center;
   font-size: 2rem;
-  padding-bottom: 3%
+  padding-bottom: 5%
 }
 
 .nyctxt{
