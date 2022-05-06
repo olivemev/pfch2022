@@ -2,12 +2,13 @@ from wsgiref import headers
 import requests
 import pandas as pd
 
+
+#change season id! to get the stats u want :) 
 season_id = '2020-21'
 per_mode = 'Totals'
 
 team_info_url = 'https://stats.nba.com/stats/leaguedashteamstats?Conference=&DateFrom=&DateTo=&Division=&GameScope=&GameSegment=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode='+per_mode+'&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season='+season_id+'&SeasonSegment=&SeasonType=Regular+Season&ShotClockRange=&StarterBench=&TeamID=0&TwoWay=0&VsConference=&VsDivision='
 
-#getting around mr silver
 headers  = {
     'Connection': 'keep-alive',
     'Accept': 'application/json, text/plain, */*',
@@ -25,6 +26,8 @@ response = requests.get(url=team_info_url, headers=headers).json()
 
 team_info = response['resultSets'][0]['rowSet']
 #print(team_info)
+
+#was unsure of which columns I wanted intially so I took all - cleaned later in python using jupyter notebook
 
 #column names, headers from prev results
 columns_list = [
@@ -87,6 +90,10 @@ columns_list = [
 ]
 
 nba1_df = pd.DataFrame(team_info, columns = columns_list)
+
+#seeing what i've got!
 print(nba1_df.sample(6))
+
+#saving file to desktop
 
 nba1_df.to_csv(r'C:\\desktop\\team_2020-21.csv', index=False)
