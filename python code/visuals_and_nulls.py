@@ -19,6 +19,7 @@ df = pd.read_csv("fp_og_csv/Untitled.csv", sep=",")
 
 # In[2]:
 
+#no more null values!
 
 df.shape
 
@@ -29,6 +30,7 @@ print(df.to_string())
 
 # In[3]:
 
+#making sure
 
 df.isnull().sum()
 
@@ -41,6 +43,7 @@ df.describe()
 
 # In[5]:
 
+#big visualization - probably hard to read
 
 plt.figure(figsize=(15,15))
 
@@ -61,6 +64,7 @@ plt.savefig("testing.png", dpi=100)
 
 plt.show()
 
+#division 2015-16 visuals
 
 # In[138]:
 
