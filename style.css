@@ -290,6 +290,11 @@ font-size: 5vw;
 
   color: blue;
 }
+  
+  #image:hover{
+    transform:none!important;
+  }
 }
+
 
 
