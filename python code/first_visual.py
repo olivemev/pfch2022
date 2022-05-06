@@ -28,22 +28,6 @@ df[df['gp']>72].groupby(['team_name', 'w']).mean()
 
 
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[3]:
-
-
 df.head()
 
 
@@ -61,6 +45,7 @@ df.sample()
 
 # In[6]:
 
+#check null values
 
 df.isnull().sum()
 
