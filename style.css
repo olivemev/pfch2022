@@ -248,7 +248,7 @@ h5 a{
   text-align:center;
   }
   
-  img, .graphs{
+  img{
     width: 100%;
     object-fit: contain;
   }
@@ -256,6 +256,16 @@ h5 a{
   .ballimg{
     width:80%;
   }
+  
+  
+ embed{
+  width: 100%;
+ }
+
+.three{
+  margin:0 auto!important;
+  width: 100%;
+}
 
 }
 
